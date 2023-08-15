@@ -287,17 +287,34 @@ input[type="radio"]{
 }
 
 @media only screen and (max-width:600px){
-    .logo{
+    nav{
+        justify-content: space-between;
+    }
+    
+    .logo {
         width: 100%;   
+        position: absolute;
+        left: 0;
+        margin-right: 10px;
+        
     }
     nav button{
-        padding: -5px -10px;
-        display: inline-flex;
+        padding: 8px 5px;
+        display: inline;
+        height: 70%;
+        font-size: 10px;
+        padding: 5px;
         
        }
        nav .first{
-           padding: 4px 8px;
+           display: inline-flex;
+           text-align: center;
            
+       }
+       nav .second{
+        text-align: center;
+        display: inline-flex;
+        white-space: nowrap;
        }
      nav .buttons{
         display: inline-flex;
